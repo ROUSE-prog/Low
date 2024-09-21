@@ -14,6 +14,12 @@
 		C24EE4BB2C9E768A00C9C76F /* LowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24EE4BA2C9E768A00C9C76F /* LowTests.swift */; };
 		C24EE4C52C9E768A00C9C76F /* LowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24EE4C42C9E768A00C9C76F /* LowUITests.swift */; };
 		C24EE4C72C9E768A00C9C76F /* LowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24EE4C62C9E768A00C9C76F /* LowUITestsLaunchTests.swift */; };
+		C24EE4D42C9E770100C9C76F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24EE4D32C9E770100C9C76F /* GameViewController.swift */; };
+		C24EE4D92C9E7A9500C9C76F /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C24EE4D62C9E7A9500C9C76F /* note2.wav */; };
+		C24EE4DA2C9E7A9500C9C76F /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = C24EE4D72C9E7A9500C9C76F /* note3.wav */; };
+		C24EE4DB2C9E7A9500C9C76F /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = C24EE4D82C9E7A9500C9C76F /* note4.wav */; };
+		C24EE4DD2C9E7F4900C9C76F /* NeonSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24EE4DC2C9E7F4900C9C76F /* NeonSquareView.swift */; };
+		C24EE4E12C9E84FF00C9C76F /*  Info.plist .plist in Resources */ = {isa = PBXBuildFile; fileRef = C24EE4E02C9E84FF00C9C76F /*  Info.plist .plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,13 @@
 		C24EE4C02C9E768A00C9C76F /* LowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24EE4C42C9E768A00C9C76F /* LowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowUITests.swift; sourceTree = "<group>"; };
 		C24EE4C62C9E768A00C9C76F /* LowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C24EE4D32C9E770100C9C76F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C24EE4D52C9E7A7700C9C76F /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		C24EE4D62C9E7A9500C9C76F /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		C24EE4D72C9E7A9500C9C76F /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		C24EE4D82C9E7A9500C9C76F /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		C24EE4DC2C9E7F4900C9C76F /* NeonSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonSquareView.swift; sourceTree = "<group>"; };
+		C24EE4E02C9E84FF00C9C76F /*  Info.plist .plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = " Info.plist .plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +88,10 @@
 		C24EE49C2C9E768800C9C76F = {
 			isa = PBXGroup;
 			children = (
+				C24EE4D52C9E7A7700C9C76F /* note1.wav */,
+				C24EE4D62C9E7A9500C9C76F /* note2.wav */,
+				C24EE4D72C9E7A9500C9C76F /* note3.wav */,
+				C24EE4D82C9E7A9500C9C76F /* note4.wav */,
 				C24EE4A72C9E768800C9C76F /* Low */,
 				C24EE4B92C9E768A00C9C76F /* LowTests */,
 				C24EE4C32C9E768A00C9C76F /* LowUITests */,
@@ -97,9 +114,12 @@
 			children = (
 				C24EE4A82C9E768800C9C76F /* LowApp.swift */,
 				C24EE4AA2C9E768800C9C76F /* ContentView.swift */,
+				C24EE4D32C9E770100C9C76F /* GameViewController.swift */,
+				C24EE4E02C9E84FF00C9C76F /*  Info.plist .plist */,
 				C24EE4AC2C9E768A00C9C76F /* Assets.xcassets */,
 				C24EE4AE2C9E768A00C9C76F /* Low.entitlements */,
 				C24EE4AF2C9E768A00C9C76F /* Preview Content */,
+				C24EE4DC2C9E7F4900C9C76F /* NeonSquareView.swift */,
 			);
 			path = Low;
 			sourceTree = "<group>";
@@ -233,7 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24EE4D92C9E7A9500C9C76F /* note2.wav in Resources */,
 				C24EE4B12C9E768A00C9C76F /* Preview Assets.xcassets in Resources */,
+				C24EE4E12C9E84FF00C9C76F /*  Info.plist .plist in Resources */,
+				C24EE4DB2C9E7A9500C9C76F /* note4.wav in Resources */,
+				C24EE4DA2C9E7A9500C9C76F /* note3.wav in Resources */,
 				C24EE4AD2C9E768A00C9C76F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C24EE4AB2C9E768800C9C76F /* ContentView.swift in Sources */,
+				C24EE4D42C9E770100C9C76F /* GameViewController.swift in Sources */,
 				C24EE4A92C9E768800C9C76F /* LowApp.swift in Sources */,
+				C24EE4DD2C9E7F4900C9C76F /* NeonSquareView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,8 +446,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Low/Preview Content\"";
+				DEVELOPMENT_TEAM = EMACL23TJ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -456,8 +484,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Low/Preview Content\"";
+				DEVELOPMENT_TEAM = EMACL23TJ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

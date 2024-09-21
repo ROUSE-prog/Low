@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Low}",
+            "name": "Debug Low",
+            "program": "${workspaceFolder:Low}/.build/debug/Low",
+            "preLaunchTask": "swift: Build Debug Low"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Low}",
+            "name": "Release Low",
+            "program": "${workspaceFolder:Low}/.build/release/Low",
+            "preLaunchTask": "swift: Build Release Low"
+        }
+    ]
+}
